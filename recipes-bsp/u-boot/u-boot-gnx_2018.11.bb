@@ -3,7 +3,7 @@ LICENSE = "GPLv2+"
 LIC_FILES_CHKSUM = "file://Licenses/README;md5=30503fd321432fc713238f582193b78e"
 
 SRC_URI = "git://github.com/geanix/u-boot.git;branch=gnx-2018.11"
-SRCREV = "0157013f4a4945bbdb70bb4d98d680e0845fd784"
+SRCREV = "9e4d5034e6526a706820eefef87cd35123df968c"
 S = "${WORKDIR}/git"
 
 UBOOT_ENV ?= "uboot"
