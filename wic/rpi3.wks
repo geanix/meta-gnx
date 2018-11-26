@@ -1,0 +1,2 @@
+part /rpi --source bootimg-partition --fstype vfat --ondisk mmcblk0 --active --fixed-size 16M
+part / --source rootfs --fstype ext4 --ondisk mmcblk0 --fixed-size 1024M
